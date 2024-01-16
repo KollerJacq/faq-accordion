@@ -29,7 +29,7 @@
     <div
       class="container d-flex justify-content-center vh-100 align-items-center"
     >
-      <div class="card">
+      <div class="card border-0">
         <div class="card-title ms-4 mt-3">
           <img
             src="assets/images/icon-star.svg"
@@ -41,18 +41,21 @@
         <div class="card-body">
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-              <span> What is Frontend Mentor, and how will it help me? </span
+              <span class="question">
+                What is Frontend Mentor, and how will it help me? </span
               ><input
                 type="button"
                 name="icon-plus"
                 id="icon-plus"
                 class="icon-plus"
-              /><img
-                src="assets/images/icon-minus.svg"
-                alt="icon-minus"
+              />
+              <input
+                type="button"
+                name="icon-minus"
+                id="icon-minus"
                 class="icon-minus hidden"
               />
-              <p>
+              <p class="accordion-content hidden">
                 Frontend Mentor offers realistic coding challenges to help
                 developers improve their frontend coding skills with projects in
                 HTML, CSS, and JavaScript. It's suitable for all levels and
@@ -60,55 +63,62 @@
               </p>
             </li>
             <li class="list-group-item">
-              <span>Is Frontend Mentor free?</span>
+              <span class="question">Is Frontend Mentor free?</span>
               <input
                 type="button"
                 name="icon-plus"
                 id="icon-plus"
                 class="icon-plus"
-              /><img
-                src="assets/images/icon-minus.svg"
-                alt="icon-minus"
+              /><input
+                type="button"
+                name="icon-minus"
+                id="icon-minus"
                 class="icon-minus hidden"
               />
-              <p class="hidden">
+              <p class="accordion-content hidden">
                 Yes, Frontend Mentor offers both free and premium coding
                 challenges, with the free option providing access to a range of
                 projects suitable for all skill levels.
               </p>
             </li>
             <li class="list-group-item">
-              <span>Can I use Frontend Mentor projects in my portfolio?</span>
+              <span class="question"
+                >Can I use Frontend Mentor projects in my portfolio?</span
+              >
               <input
                 type="button"
                 name="icon-plus"
                 id="icon-plus"
                 class="icon-plus"
-              /><img
-                src="assets/images/icon-minus.svg"
-                alt="icon-minus"
+              /><input
+                type="button"
+                name="icon-minus"
+                id="icon-minus"
                 class="icon-minus hidden"
               />
-              <p class="hidden">
+              <p class="accordion-content hidden">
                 Yes, you can use projects completed on Frontend Mentor in your
                 portfolio. It's an excellent way to showcase your skills to
                 potential employers!
               </p>
             </li>
             <li class="list-group-item">
-              <span> How can I get help if I'm stuck on a challenge? </span>
+              <span class="question">
+                How can I get help if I'm stuck on a challenge?
+              </span>
               <input
                 type="button"
                 name="icon-plus"
                 id="icon-plus"
                 class="icon-plus"
               />
-              <img
-                src="assets/images/icon-minus.svg"
-                alt="icon-minus"
+              <input
+                type="button"
+                name="icon-minus"
+                id="icon-minus"
                 class="icon-minus hidden"
               />
-              <p class="hidden">
+              <p class="accordion-content hidden">
                 The best place to get help is inside Frontend Mentor's Discord
                 community. There's a help channel where you can ask questions
                 and seek support from other community members.
@@ -128,4 +138,5 @@
       </div>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>
